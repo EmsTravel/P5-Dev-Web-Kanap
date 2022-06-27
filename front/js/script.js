@@ -1,4 +1,4 @@
-// Requete vers l'API to recover the object zith all ther products and charachteristics
+// Requete vers l'API to recover the object with all other products and charachteristics
 
 async function getProducts() {
 
