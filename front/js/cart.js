@@ -317,7 +317,7 @@ function getUserForm() {
         }
     };
 
-    // Validation des champs via comparaison REGEX
+    // Validation des champs avec comparaison REGEX
 
     const firstNameCheck = (value) => {
         if (value.length > 0 && (value.length < 2 || value.length > 20)) {

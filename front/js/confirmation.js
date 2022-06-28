@@ -3,9 +3,9 @@
 let str = new URL(window.location.href);
 let productId = str.searchParams.get("id");
 
-// Affichage du numéro de commande
+// Affichage du numéro de commande Etape 11 dans specifications techniques
 const userOrderId = document.querySelector('#orderId');
 userOrderId.textContent = productId;
 
-// Effacement des données stockées dans le localStorage
+// on supprimes des données stockées dans le localStorage
 localStorage.removeItem('userProducts');
