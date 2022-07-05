@@ -6,7 +6,7 @@ let url = new URL(str);
 let productId = url.searchParams.get("id");
 console.log(productId);
 
-const PRODUCTS_URL = "http://127.0.0.1:3000/api/products/";
+const PRODUCTS_URL = "http://localhost:3000/api/products/";
 
 
 //Requête vers l'API pour récupérer l'objet contenant tous les produits et leurs caractèristiques. 
